@@ -1,0 +1,1857 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0xca383b66
+
+Frame 1: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:39.527620014 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520499.527620014 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 342 bytes (2736 bits)
+    Capture Length: 342 bytes (2736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dhcp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 328
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x3996 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 0.0.0.0
+    Destination Address: 255.255.255.255
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+    Source Port: 68
+    Destination Port: 67
+    Length: 308
+    Checksum: 0xa2e7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (300 bytes)
+Dynamic Host Configuration Protocol (Discover)
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xca383b66
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0
+    Your (client) IP address: 0.0.0.0
+    Next server IP address: 0.0.0.0
+    Relay agent IP address: 0.0.0.0
+    Client MAC address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type (Discover)
+        Length: 1
+        DHCP: Discover (1)
+    Option: (50) Requested IP Address (10.2.73.6)
+        Length: 4
+        Requested IP Address: 10.2.73.6
+    Option: (12) Host Name
+        Length: 4
+        Host Name: ulan
+    Option: (55) Parameter Request List
+        Length: 13
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (28) Broadcast Address
+        Parameter Request List Item: (2) Time Offset
+        Parameter Request List Item: (3) Router
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (12) Host Name
+        Parameter Request List Item: (44) NetBIOS over TCP/IP Name Server
+        Parameter Request List Item: (47) NetBIOS over TCP/IP Scope
+        Parameter Request List Item: (26) Interface MTU
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (42) Network Time Protocol Servers
+    Option: (255) End
+        Option End: 255
+    Padding: 0000000000000000000000000000000000000000000000000000000000
+
+0000  ff ff ff ff ff ff 08 00 27 57 5f a0 08 00 45 10   ........'W_...E.
+0010  01 48 00 00 00 00 80 11 39 96 00 00 00 00 ff ff   .H......9.......
+0020  ff ff 00 44 00 43 01 34 a2 e7 01 01 06 00 ca 38   ...D.C.4.......8
+0030  3b 66 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ;f..............
+0040  00 00 00 00 00 00 08 00 27 57 5f a0 00 00 00 00   ........'W_.....
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 01 32 04 0a   ......c.Sc5..2..
+0120  02 49 06 0c 04 75 6c 61 6e 37 0d 01 1c 02 03 0f   .I...ulan7......
+0130  06 77 0c 2c 2f 1a 79 2a ff 00 00 00 00 00 00 00   .w.,/.y*........
+0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0150  00 00 00 00 00 00                                 ......
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000560441    10.2.73.254           10.2.73.6             ICMP     62     Echo (ping) request  id=0xf5ef, seq=0/0, ttl=64 (no response found!)
+
+Frame 2: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:39.528180455 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520499.528180455 seconds
+    [Time delta from previous captured frame: 0.000560441 seconds]
+    [Time delta from previous displayed frame: 0.000560441 seconds]
+    [Time since reference or first frame: 0.000560441 seconds]
+    Frame Number: 2
+    Frame Length: 62 bytes (496 bits)
+    Capture Length: 62 bytes (496 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.254, Dst: 10.2.73.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 48
+    Identification: 0xfdf8 (65016)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0x95cc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.254
+    Destination Address: 10.2.73.6
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x0210 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 62959 (0xf5ef)
+    Identifier (LE): 61429 (0xeff5)
+    Sequence Number (BE): 0 (0x0000)
+    Sequence Number (LE): 0 (0x0000)
+    [No response seen]
+        [Expert Info (Warning/Sequence): No response seen to ICMP request]
+            [No response seen to ICMP request]
+            [Severity level: Warning]
+            [Group: Sequence]
+    Data (20 bytes)
+        Data: 0000000000000000000000000000000000000000
+        [Length: 20]
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 00 45 00   ..'W_...'.....E.
+0010  00 30 fd f8 40 00 40 01 95 cc 0a 02 49 fe 0a 02   .0..@.@.....I...
+0020  49 06 08 00 02 10 f5 ef 00 00 00 00 00 00 00 00   I...............
+0030  00 00 00 00 00 00 00 00 00 00 00 00 00 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 1.000970185    10.2.73.254           10.2.73.6             DHCP     344    DHCP Offer    - Transaction ID 0xca383b66
+
+Frame 3: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.528590199 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.528590199 seconds
+    [Time delta from previous captured frame: 1.000409744 seconds]
+    [Time delta from previous displayed frame: 1.000409744 seconds]
+    [Time since reference or first frame: 1.000970185 seconds]
+    Frame Number: 3
+    Frame Length: 344 bytes (2752 bits)
+    Capture Length: 344 bytes (2752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dhcp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.254, Dst: 10.2.73.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 330
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x928b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.254
+    Destination Address: 10.2.73.6
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+    Source Port: 67
+    Destination Port: 68
+    Length: 310
+    Checksum: 0x5059 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (302 bytes)
+Dynamic Host Configuration Protocol (Offer)
+    Message type: Boot Reply (2)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xca383b66
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0
+    Your (client) IP address: 10.2.73.6
+    Next server IP address: 10.2.73.254
+    Relay agent IP address: 0.0.0.0
+    Client MAC address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type (Offer)
+        Length: 1
+        DHCP: Offer (2)
+    Option: (54) DHCP Server Identifier (10.2.73.254)
+        Length: 4
+        DHCP Server Identifier: 10.2.73.254
+    Option: (51) IP Address Lease Time
+        Length: 4
+        IP Address Lease Time: (720s) 12 minutes
+    Option: (1) Subnet Mask (255.255.255.0)
+        Length: 4
+        Subnet Mask: 255.255.255.0
+    Option: (28) Broadcast Address (10.2.73.255)
+        Length: 4
+        Broadcast Address: 10.2.73.255
+    Option: (3) Router
+        Length: 4
+        Router: 10.2.73.254
+    Option: (15) Domain Name
+        Length: 20
+        Domain Name: internal.ubuntu1.ubu
+    Option: (6) Domain Name Server
+        Length: 4
+        Domain Name Server: 192.168.0.1
+    Option: (255) End
+        Option End: 255
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 00 45 10   ..'W_...'.....E.
+0010  01 4a 00 00 00 00 80 11 92 8b 0a 02 49 fe 0a 02   .J..........I...
+0020  49 06 00 43 00 44 01 36 50 59 02 01 06 00 ca 38   I..C.D.6PY.....8
+0030  3b 66 00 00 00 00 00 00 00 00 0a 02 49 06 0a 02   ;f..........I...
+0040  49 fe 00 00 00 00 08 00 27 57 5f a0 00 00 00 00   I.......'W_.....
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 02 36 04 0a   ......c.Sc5..6..
+0120  02 49 fe 33 04 00 00 02 d0 01 04 ff ff ff 00 1c   .I.3............
+0130  04 0a 02 49 ff 03 04 0a 02 49 fe 0f 14 69 6e 74   ...I.....I...int
+0140  65 72 6e 61 6c 2e 75 62 75 6e 74 75 31 2e 75 62   ernal.ubuntu1.ub
+0150  75 06 04 c0 a8 00 01 ff                           u.......
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 1.001239722    0.0.0.0               255.255.255.255       DHCP     342    DHCP Request  - Transaction ID 0xca383b66
+
+Frame 4: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.528859736 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.528859736 seconds
+    [Time delta from previous captured frame: 0.000269537 seconds]
+    [Time delta from previous displayed frame: 0.000269537 seconds]
+    [Time since reference or first frame: 1.001239722 seconds]
+    Frame Number: 4
+    Frame Length: 342 bytes (2736 bits)
+    Capture Length: 342 bytes (2736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dhcp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 328
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x3996 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 0.0.0.0
+    Destination Address: 255.255.255.255
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+    Source Port: 68
+    Destination Port: 67
+    Length: 308
+    Checksum: 0x9c5d [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 1.001239722 seconds]
+        [Time since previous frame: 1.001239722 seconds]
+    UDP payload (300 bytes)
+Dynamic Host Configuration Protocol (Request)
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xca383b66
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0
+    Your (client) IP address: 0.0.0.0
+    Next server IP address: 0.0.0.0
+    Relay agent IP address: 0.0.0.0
+    Client MAC address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type (Request)
+        Length: 1
+        DHCP: Request (3)
+    Option: (54) DHCP Server Identifier (10.2.73.254)
+        Length: 4
+        DHCP Server Identifier: 10.2.73.254
+    Option: (50) Requested IP Address (10.2.73.6)
+        Length: 4
+        Requested IP Address: 10.2.73.6
+    Option: (12) Host Name
+        Length: 4
+        Host Name: ulan
+    Option: (55) Parameter Request List
+        Length: 13
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (28) Broadcast Address
+        Parameter Request List Item: (2) Time Offset
+        Parameter Request List Item: (3) Router
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (12) Host Name
+        Parameter Request List Item: (44) NetBIOS over TCP/IP Name Server
+        Parameter Request List Item: (47) NetBIOS over TCP/IP Scope
+        Parameter Request List Item: (26) Interface MTU
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (42) Network Time Protocol Servers
+    Option: (255) End
+        Option End: 255
+    Padding: 0000000000000000000000000000000000000000000000
+
+0000  ff ff ff ff ff ff 08 00 27 57 5f a0 08 00 45 10   ........'W_...E.
+0010  01 48 00 00 00 00 80 11 39 96 00 00 00 00 ff ff   .H......9.......
+0020  ff ff 00 44 00 43 01 34 9c 5d 01 01 06 00 ca 38   ...D.C.4.].....8
+0030  3b 66 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ;f..............
+0040  00 00 00 00 00 00 08 00 27 57 5f a0 00 00 00 00   ........'W_.....
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 03 36 04 0a   ......c.Sc5..6..
+0120  02 49 fe 32 04 0a 02 49 06 0c 04 75 6c 61 6e 37   .I.2...I...ulan7
+0130  0d 01 1c 02 03 0f 06 77 0c 2c 2f 1a 79 2a ff 00   .......w.,/.y*..
+0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0150  00 00 00 00 00 00                                 ......
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 1.020115004    10.2.73.254           10.2.73.6             DHCP     344    DHCP ACK      - Transaction ID 0xca383b66
+
+Frame 5: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.547735018 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.547735018 seconds
+    [Time delta from previous captured frame: 0.018875282 seconds]
+    [Time delta from previous displayed frame: 0.018875282 seconds]
+    [Time since reference or first frame: 1.020115004 seconds]
+    Frame Number: 5
+    Frame Length: 344 bytes (2752 bits)
+    Capture Length: 344 bytes (2752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dhcp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.254, Dst: 10.2.73.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 330
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x928b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.254
+    Destination Address: 10.2.73.6
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+    Source Port: 67
+    Destination Port: 68
+    Length: 310
+    Checksum: 0x4d59 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Timestamps]
+        [Time since first frame: 0.019144819 seconds]
+        [Time since previous frame: 0.019144819 seconds]
+    UDP payload (302 bytes)
+Dynamic Host Configuration Protocol (ACK)
+    Message type: Boot Reply (2)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xca383b66
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0
+    Your (client) IP address: 10.2.73.6
+    Next server IP address: 10.2.73.254
+    Relay agent IP address: 0.0.0.0
+    Client MAC address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type (ACK)
+        Length: 1
+        DHCP: ACK (5)
+    Option: (54) DHCP Server Identifier (10.2.73.254)
+        Length: 4
+        DHCP Server Identifier: 10.2.73.254
+    Option: (51) IP Address Lease Time
+        Length: 4
+        IP Address Lease Time: (720s) 12 minutes
+    Option: (1) Subnet Mask (255.255.255.0)
+        Length: 4
+        Subnet Mask: 255.255.255.0
+    Option: (28) Broadcast Address (10.2.73.255)
+        Length: 4
+        Broadcast Address: 10.2.73.255
+    Option: (3) Router
+        Length: 4
+        Router: 10.2.73.254
+    Option: (15) Domain Name
+        Length: 20
+        Domain Name: internal.ubuntu1.ubu
+    Option: (6) Domain Name Server
+        Length: 4
+        Domain Name Server: 192.168.0.1
+    Option: (255) End
+        Option End: 255
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 00 45 10   ..'W_...'.....E.
+0010  01 4a 00 00 00 00 80 11 92 8b 0a 02 49 fe 0a 02   .J..........I...
+0020  49 06 00 43 00 44 01 36 4d 59 02 01 06 00 ca 38   I..C.D.6MY.....8
+0030  3b 66 00 00 00 00 00 00 00 00 0a 02 49 06 0a 02   ;f..........I...
+0040  49 fe 00 00 00 00 08 00 27 57 5f a0 00 00 00 00   I.......'W_.....
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 05 36 04 0a   ......c.Sc5..6..
+0120  02 49 fe 33 04 00 00 02 d0 01 04 ff ff ff 00 1c   .I.3............
+0130  04 0a 02 49 ff 03 04 0a 02 49 fe 0f 14 69 6e 74   ...I.....I...int
+0140  65 72 6e 61 6c 2e 75 62 75 6e 74 75 31 2e 75 62   ernal.ubuntu1.ub
+0150  75 06 04 c0 a8 00 01 ff                           u.......
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 1.042913369    10.2.73.6             224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 6: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.570533383 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.570533383 seconds
+    [Time delta from previous captured frame: 0.022798365 seconds]
+    [Time delta from previous displayed frame: 0.022798365 seconds]
+    [Time since reference or first frame: 1.042913369 seconds]
+    Frame Number: 6
+    Frame Length: 54 bytes (432 bits)
+    Capture Length: 54 bytes (432 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:igmp:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || carp || gvrp || igmp || ismp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+    Destination: IPv4mcast_16 (01:00:5e:00:00:16)
+        Address: IPv4mcast_16 (01:00:5e:00:00:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.22
+    0100 .... = Version: 4
+    .... 0110 = Header Length: 24 bytes (6)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x0000 (0)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: IGMP (2)
+    Header Checksum: 0xb0f1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.22
+    Options: (4 bytes), Router Alert
+        IP Option - Router Alert (4 bytes): Router shall examine packet (0)
+            Type: 148
+                1... .... = Copy on fragmentation: Yes
+                .00. .... = Class: Control (0)
+                ...1 0100 = Number: Router Alert (20)
+            Length: 4
+            Router Alert: Router shall examine packet (0)
+Internet Group Management Protocol
+    [IGMP Version: 3]
+    Type: Membership Report (0x22)
+    Reserved: 00
+    Checksum: 0xf902 [correct]
+    [Checksum Status: Good]
+    Reserved: 0000
+    Num Group Records: 1
+    Group Record : 224.0.0.251  Change To Exclude Mode
+        Record Type: Change To Exclude Mode (4)
+        Aux Data Len: 0
+        Num Src: 0
+        Multicast Address: 224.0.0.251
+
+0000  01 00 5e 00 00 16 08 00 27 57 5f a0 08 00 46 c0   ..^.....'W_...F.
+0010  00 28 00 00 40 00 01 02 b0 f1 0a 02 49 06 e0 00   .(..@.......I...
+0020  00 16 94 04 00 00 22 00 f9 02 00 00 00 01 04 00   ......".........
+0030  00 00 e0 00 00 fb                                 ......
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 1.129680065    10.2.73.6             224.0.0.251           MDNS     87     Standard query 0x0000 PTR _ipps._tcp.local, "QM" question PTR _ipp._tcp.local, "QM" question
+
+Frame 7: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.657300079 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.657300079 seconds
+    [Time delta from previous captured frame: 0.086766696 seconds]
+    [Time delta from previous displayed frame: 0.086766696 seconds]
+    [Time since reference or first frame: 1.129680065 seconds]
+    Frame Number: 7
+    Frame Length: 87 bytes (696 bits)
+    Capture Length: 87 bytes (696 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 73
+    Identification: 0x255c (9564)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x2244 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 53
+    Checksum: 0x344a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (45 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 2
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ipps._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipps._tcp.local
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        _ipp._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipp._tcp.local
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+    [Response In: 12]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 49 25 5c 40 00 ff 11 22 44 0a 02 49 06 e0 00   .I%\@..."D..I...
+0020  00 fb 14 e9 14 e9 00 35 34 4a 00 00 00 00 00 02   .......54J......
+0030  00 00 00 00 00 00 05 5f 69 70 70 73 04 5f 74 63   ......._ipps._tc
+0040  70 05 6c 6f 63 61 6c 00 00 0c 00 01 04 5f 69 70   p.local......_ip
+0050  70 c0 12 00 0c 00 01                              p......
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.249752971    10.2.73.6             224.0.0.251           MDNS     244    Standard query 0x0000 ANY 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa, "QM" question ANY ulan.local, "QM" question ANY 6.73.2.10.in-addr.arpa, "QM" question A 10.2.73.6 PTR ulan.local AAAA fe80::a00:27ff:fe57:5fa0 PTR ulan.local
+
+Frame 8: 244 bytes on wire (1952 bits), 244 bytes captured (1952 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.777372985 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.777372985 seconds
+    [Time delta from previous captured frame: 0.120072906 seconds]
+    [Time delta from previous displayed frame: 0.120072906 seconds]
+    [Time since reference or first frame: 1.249752971 seconds]
+    Frame Number: 8
+    Frame Length: 244 bytes (1952 bits)
+    Capture Length: 244 bytes (1952 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 230
+    Identification: 0x2573 (9587)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x2190 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 210
+    Checksum: 0x34e7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.120072906 seconds]
+        [Time since previous frame: 0.120072906 seconds]
+    UDP payload (202 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+        [Expert Info (Warning/Protocol): DNS query retransmission. Original request in frame 7]
+            [DNS query retransmission. Original request in frame 7]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 3
+    Answer RRs: 0
+    Authority RRs: 4
+    Additional RRs: 0
+    Queries
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type ANY, class IN, "QM" question
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            [Name Length: 72]
+            [Label Count: 34]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        ulan.local: type ANY, class IN, "QM" question
+            Name: ulan.local
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        6.73.2.10.in-addr.arpa: type ANY, class IN, "QM" question
+            Name: 6.73.2.10.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+    Authoritative nameservers
+        ulan.local: type A, class IN, addr 10.2.73.6
+            Name: ulan.local
+            Type: A (Host Address) (1)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 10.2.73.6
+        6.73.2.10.in-addr.arpa: type PTR, class IN, ulan.local
+            Name: 6.73.2.10.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+        ulan.local: type AAAA, class IN, addr fe80::a00:27ff:fe57:5fa0
+            Name: ulan.local
+            Type: AAAA (IPv6 Address) (28)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 16
+            AAAA Address: fe80::a00:27ff:fe57:5fa0
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type PTR, class IN, ulan.local
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+    [Retransmitted request. Original request in: 7]
+    [Retransmission: True]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 e6 25 73 40 00 ff 11 21 90 0a 02 49 06 e0 00   ..%s@...!...I...
+0020  00 fb 14 e9 14 e9 00 d2 34 e7 00 00 00 00 00 03   ........4.......
+0030  00 00 00 04 00 00 01 30 01 61 01 66 01 35 01 37   .......0.a.f.5.7
+0040  01 35 01 65 01 66 01 66 01 66 01 37 01 32 01 30   .5.e.f.f.f.7.2.0
+0050  01 30 01 61 01 30 01 30 01 30 01 30 01 30 01 30   .0.a.0.0.0.0.0.0
+0060  01 30 01 30 01 30 01 30 01 30 01 30 01 30 01 30   .0.0.0.0.0.0.0.0
+0070  01 38 01 65 01 66 03 69 70 36 04 61 72 70 61 00   .8.e.f.ip6.arpa.
+0080  00 ff 00 01 04 75 6c 61 6e 05 6c 6f 63 61 6c 00   .....ulan.local.
+0090  00 ff 00 01 01 36 02 37 33 01 32 02 31 30 07 69   .....6.73.2.10.i
+00a0  6e 2d 61 64 64 72 c0 50 00 ff 00 01 c0 5a 00 01   n-addr.P.....Z..
+00b0  00 01 00 00 00 78 00 04 0a 02 49 06 c0 6a 00 0c   .....x....I..j..
+00c0  00 01 00 00 00 78 00 02 c0 5a c0 5a 00 1c 00 01   .....x...Z.Z....
+00d0  00 00 00 78 00 10 fe 80 00 00 00 00 00 00 0a 00   ...x............
+00e0  27 ff fe 57 5f a0 c0 0c 00 0c 00 01 00 00 00 78   '..W_..........x
+00f0  00 02 c0 5a                                       ...Z
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.426999330    10.2.73.6             224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 9: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:40.954619344 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520500.954619344 seconds
+    [Time delta from previous captured frame: 0.177246359 seconds]
+    [Time delta from previous displayed frame: 0.177246359 seconds]
+    [Time since reference or first frame: 1.426999330 seconds]
+    Frame Number: 9
+    Frame Length: 54 bytes (432 bits)
+    Capture Length: 54 bytes (432 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:igmp:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || carp || gvrp || igmp || ismp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+    Destination: IPv4mcast_16 (01:00:5e:00:00:16)
+        Address: IPv4mcast_16 (01:00:5e:00:00:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.22
+    0100 .... = Version: 4
+    .... 0110 = Header Length: 24 bytes (6)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x0000 (0)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: IGMP (2)
+    Header Checksum: 0xb0f1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.22
+    Options: (4 bytes), Router Alert
+        IP Option - Router Alert (4 bytes): Router shall examine packet (0)
+            Type: 148
+                1... .... = Copy on fragmentation: Yes
+                .00. .... = Class: Control (0)
+                ...1 0100 = Number: Router Alert (20)
+            Length: 4
+            Router Alert: Router shall examine packet (0)
+Internet Group Management Protocol
+    [IGMP Version: 3]
+    Type: Membership Report (0x22)
+    Reserved: 00
+    Checksum: 0xf902 [correct]
+    [Checksum Status: Good]
+    Reserved: 0000
+    Num Group Records: 1
+    Group Record : 224.0.0.251  Change To Exclude Mode
+        Record Type: Change To Exclude Mode (4)
+        Aux Data Len: 0
+        Num Src: 0
+        Multicast Address: 224.0.0.251
+
+0000  01 00 5e 00 00 16 08 00 27 57 5f a0 08 00 46 c0   ..^.....'W_...F.
+0010  00 28 00 00 40 00 01 02 b0 f1 0a 02 49 06 e0 00   .(..@.......I...
+0020  00 16 94 04 00 00 22 00 f9 02 00 00 00 01 04 00   ......".........
+0030  00 00 e0 00 00 fb                                 ......
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.500696140    10.2.73.6             224.0.0.251           MDNS     244    Standard query 0x0000 ANY 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa, "QM" question ANY ulan.local, "QM" question ANY 6.73.2.10.in-addr.arpa, "QM" question A 10.2.73.6 PTR ulan.local AAAA fe80::a00:27ff:fe57:5fa0 PTR ulan.local
+
+Frame 10: 244 bytes on wire (1952 bits), 244 bytes captured (1952 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:41.028316154 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520501.028316154 seconds
+    [Time delta from previous captured frame: 0.073696810 seconds]
+    [Time delta from previous displayed frame: 0.073696810 seconds]
+    [Time since reference or first frame: 1.500696140 seconds]
+    Frame Number: 10
+    Frame Length: 244 bytes (1952 bits)
+    Capture Length: 244 bytes (1952 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 230
+    Identification: 0x2578 (9592)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x218b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 210
+    Checksum: 0x34e7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.371016075 seconds]
+        [Time since previous frame: 0.250943169 seconds]
+    UDP payload (202 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+        [Expert Info (Warning/Protocol): DNS query retransmission. Original request in frame 7]
+            [DNS query retransmission. Original request in frame 7]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 3
+    Answer RRs: 0
+    Authority RRs: 4
+    Additional RRs: 0
+    Queries
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type ANY, class IN, "QM" question
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            [Name Length: 72]
+            [Label Count: 34]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        ulan.local: type ANY, class IN, "QM" question
+            Name: ulan.local
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        6.73.2.10.in-addr.arpa: type ANY, class IN, "QM" question
+            Name: 6.73.2.10.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+    Authoritative nameservers
+        ulan.local: type A, class IN, addr 10.2.73.6
+            Name: ulan.local
+            Type: A (Host Address) (1)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 10.2.73.6
+        6.73.2.10.in-addr.arpa: type PTR, class IN, ulan.local
+            Name: 6.73.2.10.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+        ulan.local: type AAAA, class IN, addr fe80::a00:27ff:fe57:5fa0
+            Name: ulan.local
+            Type: AAAA (IPv6 Address) (28)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 16
+            AAAA Address: fe80::a00:27ff:fe57:5fa0
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type PTR, class IN, ulan.local
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+    [Retransmitted request. Original request in: 7]
+    [Retransmission: True]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 e6 25 78 40 00 ff 11 21 8b 0a 02 49 06 e0 00   ..%x@...!...I...
+0020  00 fb 14 e9 14 e9 00 d2 34 e7 00 00 00 00 00 03   ........4.......
+0030  00 00 00 04 00 00 01 30 01 61 01 66 01 35 01 37   .......0.a.f.5.7
+0040  01 35 01 65 01 66 01 66 01 66 01 37 01 32 01 30   .5.e.f.f.f.7.2.0
+0050  01 30 01 61 01 30 01 30 01 30 01 30 01 30 01 30   .0.a.0.0.0.0.0.0
+0060  01 30 01 30 01 30 01 30 01 30 01 30 01 30 01 30   .0.0.0.0.0.0.0.0
+0070  01 38 01 65 01 66 03 69 70 36 04 61 72 70 61 00   .8.e.f.ip6.arpa.
+0080  00 ff 00 01 04 75 6c 61 6e 05 6c 6f 63 61 6c 00   .....ulan.local.
+0090  00 ff 00 01 01 36 02 37 33 01 32 02 31 30 07 69   .....6.73.2.10.i
+00a0  6e 2d 61 64 64 72 c0 50 00 ff 00 01 c0 5a 00 01   n-addr.P.....Z..
+00b0  00 01 00 00 00 78 00 04 0a 02 49 06 c0 6a 00 0c   .....x....I..j..
+00c0  00 01 00 00 00 78 00 02 c0 5a c0 5a 00 1c 00 01   .....x...Z.Z....
+00d0  00 00 00 78 00 10 fe 80 00 00 00 00 00 00 0a 00   ...x............
+00e0  27 ff fe 57 5f a0 c0 0c 00 0c 00 01 00 00 00 78   '..W_..........x
+00f0  00 02 c0 5a                                       ...Z
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 1.751646657    10.2.73.6             224.0.0.251           MDNS     244    Standard query 0x0000 ANY 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa, "QM" question ANY ulan.local, "QM" question ANY 6.73.2.10.in-addr.arpa, "QM" question A 10.2.73.6 PTR ulan.local AAAA fe80::a00:27ff:fe57:5fa0 PTR ulan.local
+
+Frame 11: 244 bytes on wire (1952 bits), 244 bytes captured (1952 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:41.279266671 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520501.279266671 seconds
+    [Time delta from previous captured frame: 0.250950517 seconds]
+    [Time delta from previous displayed frame: 0.250950517 seconds]
+    [Time since reference or first frame: 1.751646657 seconds]
+    Frame Number: 11
+    Frame Length: 244 bytes (1952 bits)
+    Capture Length: 244 bytes (1952 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 230
+    Identification: 0x25a5 (9637)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x215e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 210
+    Checksum: 0x34e7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.621966592 seconds]
+        [Time since previous frame: 0.250950517 seconds]
+    UDP payload (202 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+        [Expert Info (Warning/Protocol): DNS query retransmission. Original request in frame 7]
+            [DNS query retransmission. Original request in frame 7]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 3
+    Answer RRs: 0
+    Authority RRs: 4
+    Additional RRs: 0
+    Queries
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type ANY, class IN, "QM" question
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            [Name Length: 72]
+            [Label Count: 34]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        ulan.local: type ANY, class IN, "QM" question
+            Name: ulan.local
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        6.73.2.10.in-addr.arpa: type ANY, class IN, "QM" question
+            Name: 6.73.2.10.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: * (A request for all records the server/cache has available) (255)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+    Authoritative nameservers
+        ulan.local: type A, class IN, addr 10.2.73.6
+            Name: ulan.local
+            Type: A (Host Address) (1)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 10.2.73.6
+        6.73.2.10.in-addr.arpa: type PTR, class IN, ulan.local
+            Name: 6.73.2.10.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+        ulan.local: type AAAA, class IN, addr fe80::a00:27ff:fe57:5fa0
+            Name: ulan.local
+            Type: AAAA (IPv6 Address) (28)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 16
+            AAAA Address: fe80::a00:27ff:fe57:5fa0
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type PTR, class IN, ulan.local
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = Cache flush: False
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+    [Retransmitted request. Original request in: 7]
+    [Retransmission: True]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 e6 25 a5 40 00 ff 11 21 5e 0a 02 49 06 e0 00   ..%.@...!^..I...
+0020  00 fb 14 e9 14 e9 00 d2 34 e7 00 00 00 00 00 03   ........4.......
+0030  00 00 00 04 00 00 01 30 01 61 01 66 01 35 01 37   .......0.a.f.5.7
+0040  01 35 01 65 01 66 01 66 01 66 01 37 01 32 01 30   .5.e.f.f.f.7.2.0
+0050  01 30 01 61 01 30 01 30 01 30 01 30 01 30 01 30   .0.a.0.0.0.0.0.0
+0060  01 30 01 30 01 30 01 30 01 30 01 30 01 30 01 30   .0.0.0.0.0.0.0.0
+0070  01 38 01 65 01 66 03 69 70 36 04 61 72 70 61 00   .8.e.f.ip6.arpa.
+0080  00 ff 00 01 04 75 6c 61 6e 05 6c 6f 63 61 6c 00   .....ulan.local.
+0090  00 ff 00 01 01 36 02 37 33 01 32 02 31 30 07 69   .....6.73.2.10.i
+00a0  6e 2d 61 64 64 72 c0 50 00 ff 00 01 c0 5a 00 01   n-addr.P.....Z..
+00b0  00 01 00 00 00 78 00 04 0a 02 49 06 c0 6a 00 0c   .....x....I..j..
+00c0  00 01 00 00 00 78 00 02 c0 5a c0 5a 00 1c 00 01   .....x...Z.Z....
+00d0  00 00 00 78 00 10 fe 80 00 00 00 00 00 00 0a 00   ...x............
+00e0  27 ff fe 57 5f a0 c0 0c 00 0c 00 01 00 00 00 78   '..W_..........x
+00f0  00 02 c0 5a                                       ...Z
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 1.951413904    10.2.73.6             224.0.0.251           MDNS     226    Standard query response 0x0000 PTR, cache flush ulan.local A, cache flush 10.2.73.6 PTR, cache flush ulan.local AAAA, cache flush fe80::a00:27ff:fe57:5fa0
+
+Frame 12: 226 bytes on wire (1808 bits), 226 bytes captured (1808 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:41.479033918 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520501.479033918 seconds
+    [Time delta from previous captured frame: 0.199767247 seconds]
+    [Time delta from previous displayed frame: 0.199767247 seconds]
+    [Time since reference or first frame: 1.951413904 seconds]
+    Frame Number: 12
+    Frame Length: 226 bytes (1808 bits)
+    Capture Length: 226 bytes (1808 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 212
+    Identification: 0x25b8 (9656)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x215d [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 192
+    Checksum: 0x34d5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.821733839 seconds]
+        [Time since previous frame: 0.199767247 seconds]
+    UDP payload (184 bytes)
+Multicast Domain Name System (response)
+    Transaction ID: 0x0000
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 0
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Answers
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type PTR, class IN, cache flush, ulan.local
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 12
+            Domain Name: ulan.local
+        ulan.local: type A, class IN, cache flush, addr 10.2.73.6
+            Name: ulan.local
+            Type: A (Host Address) (1)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 10.2.73.6
+        6.73.2.10.in-addr.arpa: type PTR, class IN, cache flush, ulan.local
+            Name: 6.73.2.10.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+        ulan.local: type AAAA, class IN, cache flush, addr fe80::a00:27ff:fe57:5fa0
+            Name: ulan.local
+            Type: AAAA (IPv6 Address) (28)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 16
+            AAAA Address: fe80::a00:27ff:fe57:5fa0
+    [Request In: 7]
+    [Time: 0.821733839 seconds]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 d4 25 b8 40 00 ff 11 21 5d 0a 02 49 06 e0 00   ..%.@...!]..I...
+0020  00 fb 14 e9 14 e9 00 c0 34 d5 00 00 84 00 00 00   ........4.......
+0030  00 04 00 00 00 00 01 30 01 61 01 66 01 35 01 37   .......0.a.f.5.7
+0040  01 35 01 65 01 66 01 66 01 66 01 37 01 32 01 30   .5.e.f.f.f.7.2.0
+0050  01 30 01 61 01 30 01 30 01 30 01 30 01 30 01 30   .0.a.0.0.0.0.0.0
+0060  01 30 01 30 01 30 01 30 01 30 01 30 01 30 01 30   .0.0.0.0.0.0.0.0
+0070  01 38 01 65 01 66 03 69 70 36 04 61 72 70 61 00   .8.e.f.ip6.arpa.
+0080  00 0c 80 01 00 00 00 78 00 0c 04 75 6c 61 6e 05   .......x...ulan.
+0090  6c 6f 63 61 6c 00 c0 60 00 01 80 01 00 00 00 78   local..`.......x
+00a0  00 04 0a 02 49 06 01 36 02 37 33 01 32 02 31 30   ....I..6.73.2.10
+00b0  07 69 6e 2d 61 64 64 72 c0 50 00 0c 80 01 00 00   .in-addr.P......
+00c0  00 78 00 02 c0 60 c0 60 00 1c 80 01 00 00 00 78   .x...`.`.......x
+00d0  00 10 fe 80 00 00 00 00 00 00 0a 00 27 ff fe 57   ............'..W
+00e0  5f a0                                             _.
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.130272143    10.2.73.6             224.0.0.251           MDNS     87     Standard query 0x0000 PTR _ipps._tcp.local, "QM" question PTR _ipp._tcp.local, "QM" question
+
+Frame 13: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:41.657892157 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520501.657892157 seconds
+    [Time delta from previous captured frame: 0.178858239 seconds]
+    [Time delta from previous displayed frame: 0.178858239 seconds]
+    [Time since reference or first frame: 2.130272143 seconds]
+    Frame Number: 13
+    Frame Length: 87 bytes (696 bits)
+    Capture Length: 87 bytes (696 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 73
+    Identification: 0x25db (9691)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x21c5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 53
+    Checksum: 0x344a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 1.000592078 seconds]
+        [Time since previous frame: 0.178858239 seconds]
+    UDP payload (45 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 2
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ipps._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipps._tcp.local
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        _ipp._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipp._tcp.local
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+    [Response In: 14]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 49 25 db 40 00 ff 11 21 c5 0a 02 49 06 e0 00   .I%.@...!...I...
+0020  00 fb 14 e9 14 e9 00 35 34 4a 00 00 00 00 00 02   .......54J......
+0030  00 00 00 00 00 00 05 5f 69 70 70 73 04 5f 74 63   ......._ipps._tc
+0040  70 05 6c 6f 63 61 6c 00 00 0c 00 01 04 5f 69 70   p.local......_ip
+0050  70 c0 12 00 0c 00 01                              p......
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 3.122237986    10.2.73.6             224.0.0.251           MDNS     226    Standard query response 0x0000 PTR, cache flush ulan.local A, cache flush 10.2.73.6 PTR, cache flush ulan.local AAAA, cache flush fe80::a00:27ff:fe57:5fa0
+
+Frame 14: 226 bytes on wire (1808 bits), 226 bytes captured (1808 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:42.649858000 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520502.649858000 seconds
+    [Time delta from previous captured frame: 0.991965843 seconds]
+    [Time delta from previous displayed frame: 0.991965843 seconds]
+    [Time since reference or first frame: 3.122237986 seconds]
+    Frame Number: 14
+    Frame Length: 226 bytes (1808 bits)
+    Capture Length: 226 bytes (1808 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 212
+    Identification: 0x2675 (9845)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x20a0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 192
+    Checksum: 0x34d5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 1.992557921 seconds]
+        [Time since previous frame: 0.991965843 seconds]
+    UDP payload (184 bytes)
+Multicast Domain Name System (response)
+    Transaction ID: 0x0000
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 0
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Answers
+        0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa: type PTR, class IN, cache flush, ulan.local
+            Name: 0.a.f.5.7.5.e.f.f.f.7.2.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 12
+            Domain Name: ulan.local
+        ulan.local: type A, class IN, cache flush, addr 10.2.73.6
+            Name: ulan.local
+            Type: A (Host Address) (1)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 10.2.73.6
+        6.73.2.10.in-addr.arpa: type PTR, class IN, cache flush, ulan.local
+            Name: 6.73.2.10.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 2
+            Domain Name: ulan.local
+        ulan.local: type AAAA, class IN, cache flush, addr fe80::a00:27ff:fe57:5fa0
+            Name: ulan.local
+            Type: AAAA (IPv6 Address) (28)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            1... .... .... .... = Cache flush: True
+            Time to live: 120 (2 minutes)
+            Data length: 16
+            AAAA Address: fe80::a00:27ff:fe57:5fa0
+    [Request In: 13]
+    [Time: 0.991965843 seconds]
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 d4 26 75 40 00 ff 11 20 a0 0a 02 49 06 e0 00   ..&u@... ...I...
+0020  00 fb 14 e9 14 e9 00 c0 34 d5 00 00 84 00 00 00   ........4.......
+0030  00 04 00 00 00 00 01 30 01 61 01 66 01 35 01 37   .......0.a.f.5.7
+0040  01 35 01 65 01 66 01 66 01 66 01 37 01 32 01 30   .5.e.f.f.f.7.2.0
+0050  01 30 01 61 01 30 01 30 01 30 01 30 01 30 01 30   .0.a.0.0.0.0.0.0
+0060  01 30 01 30 01 30 01 30 01 30 01 30 01 30 01 30   .0.0.0.0.0.0.0.0
+0070  01 38 01 65 01 66 03 69 70 36 04 61 72 70 61 00   .8.e.f.ip6.arpa.
+0080  00 0c 80 01 00 00 00 78 00 0c 04 75 6c 61 6e 05   .......x...ulan.
+0090  6c 6f 63 61 6c 00 c0 60 00 01 80 01 00 00 00 78   local..`.......x
+00a0  00 04 0a 02 49 06 01 36 02 37 33 01 32 02 31 30   ....I..6.73.2.10
+00b0  07 69 6e 2d 61 64 64 72 c0 50 00 0c 80 01 00 00   .in-addr.P......
+00c0  00 78 00 02 c0 60 c0 60 00 1c 80 01 00 00 00 78   .x...`.`.......x
+00d0  00 10 fe 80 00 00 00 00 00 00 0a 00 27 ff fe 57   ............'..W
+00e0  5f a0                                             _.
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 4.132154322    10.2.73.6             224.0.0.251           MDNS     87     Standard query 0x0000 PTR _ipps._tcp.local, "QM" question PTR _ipp._tcp.local, "QM" question
+
+Frame 15: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:43.659774336 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520503.659774336 seconds
+    [Time delta from previous captured frame: 1.009916336 seconds]
+    [Time delta from previous displayed frame: 1.009916336 seconds]
+    [Time since reference or first frame: 4.132154322 seconds]
+    Frame Number: 15
+    Frame Length: 87 bytes (696 bits)
+    Capture Length: 87 bytes (696 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:mdns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Destination: IPv4mcast_fb (01:00:5e:00:00:fb)
+        Address: IPv4mcast_fb (01:00:5e:00:00:fb)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 73
+    Identification: 0x2727 (10023)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x2079 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+    Source Port: 5353
+    Destination Port: 5353
+    Length: 53
+    Checksum: 0x344a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 3.002474257 seconds]
+        [Time since previous frame: 1.009916336 seconds]
+    UDP payload (45 bytes)
+Multicast Domain Name System (query)
+    Transaction ID: 0x0000
+    Flags: 0x0000 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 2
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ipps._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipps._tcp.local
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+        _ipp._tcp.local: type PTR, class IN, "QM" question
+            Name: _ipp._tcp.local
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: PTR (domain name PoinTeR) (12)
+            .000 0000 0000 0001 = Class: IN (0x0001)
+            0... .... .... .... = "QU" question: False
+
+0000  01 00 5e 00 00 fb 08 00 27 57 5f a0 08 00 45 00   ..^.....'W_...E.
+0010  00 49 27 27 40 00 ff 11 20 79 0a 02 49 06 e0 00   .I''@... y..I...
+0020  00 fb 14 e9 14 e9 00 35 34 4a 00 00 00 00 00 02   .......54J......
+0030  00 00 00 00 00 00 05 5f 69 70 70 73 04 5f 74 63   ......._ipps._tc
+0040  70 05 6c 6f 63 61 6c 00 00 0c 00 01 04 5f 69 70   p.local......_ip
+0050  70 c0 12 00 0c 00 01                              p......
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 5.108668915    PcsCompu_9f:a5:ba     PcsCompu_57:5f:a0     ARP      60     Who has 10.2.73.6? Tell 10.2.73.254
+
+Frame 16: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:44.636288929 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520504.636288929 seconds
+    [Time delta from previous captured frame: 0.976514593 seconds]
+    [Time delta from previous displayed frame: 0.976514593 seconds]
+    [Time since reference or first frame: 5.108668915 seconds]
+    Frame Number: 16
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+    Padding: 000000000000000000000000000000000000
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+    Sender IP address: 10.2.73.254
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 10.2.73.6
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 06 00 01   ..'W_...'.......
+0010  08 00 06 04 00 01 08 00 27 9f a5 ba 0a 02 49 fe   ........'.....I.
+0020  00 00 00 00 00 00 0a 02 49 06 00 00 00 00 00 00   ........I.......
+0030  00 00 00 00 00 00 00 00 00 00 00 00               ............
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 5.108696435    PcsCompu_57:5f:a0     PcsCompu_9f:a5:ba     ARP      42     10.2.73.6 is at 08:00:27:57:5f:a0
+
+Frame 17: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:21:44.636316449 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666520504.636316449 seconds
+    [Time delta from previous captured frame: 0.000027520 seconds]
+    [Time delta from previous displayed frame: 0.000027520 seconds]
+    [Time since reference or first frame: 5.108696435 seconds]
+    Frame Number: 17
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+    Destination: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Sender IP address: 10.2.73.6
+    Target MAC address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+    Target IP address: 10.2.73.254
+
+0000  08 00 27 9f a5 ba 08 00 27 57 5f a0 08 06 00 01   ..'.....'W_.....
+0010  08 00 06 04 00 02 08 00 27 57 5f a0 0a 02 49 06   ........'W_...I.
+0020  08 00 27 9f a5 ba 0a 02 49 fe                     ..'.....I.

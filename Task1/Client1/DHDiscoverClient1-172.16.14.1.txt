@@ -1,0 +1,123 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0xf5b2910d
+
+Frame 1: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:46:07.256312668 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666529167.256312668 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 342 bytes (2736 bits)
+    Capture Length: 342 bytes (2736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:bootp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_a2:52:1a (08:00:27:a2:52:1a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CadmusCo_a2:52:1a (08:00:27:a2:52:1a)
+        Address: CadmusCo_a2:52:1a (08:00:27:a2:52:1a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0 (0.0.0.0), Dst: 255.255.255.255 (255.255.255.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 328
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x3996 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 0.0.0.0 (0.0.0.0)
+    Destination: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: bootpc (68), Dst Port: bootps (67)
+    Source port: bootpc (68)
+    Destination port: bootps (67)
+    Length: 308
+    Checksum: 0x3adf [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Bootstrap Protocol
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xf5b2910d
+    Seconds elapsed: 167
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0 (0.0.0.0)
+    Your (client) IP address: 0.0.0.0 (0.0.0.0)
+    Next server IP address: 0.0.0.0 (0.0.0.0)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client MAC address: CadmusCo_a2:52:1a (08:00:27:a2:52:1a)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type
+        Length: 1
+        DHCP: Discover (1)
+    Option: (12) Host Name
+        Length: 4
+        Host Name: ulan
+    Option: (55) Parameter Request List
+        Length: 13
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (28) Broadcast Address
+        Parameter Request List Item: (2) Time Offset
+        Parameter Request List Item: (3) Router
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (12) Host Name
+        Parameter Request List Item: (44) NetBIOS over TCP/IP Name Server
+        Parameter Request List Item: (47) NetBIOS over TCP/IP Scope
+        Parameter Request List Item: (26) Interface MTU
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (42) Network Time Protocol Servers
+    Option: (255) End
+        Option End: 255
+    Padding
+
+0000  ff ff ff ff ff ff 08 00 27 a2 52 1a 08 00 45 10   ........'.R...E.
+0010  01 48 00 00 00 00 80 11 39 96 00 00 00 00 ff ff   .H......9.......
+0020  ff ff 00 44 00 43 01 34 3a df 01 01 06 00 f5 b2   ...D.C.4:.......
+0030  91 0d 00 a7 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0040  00 00 00 00 00 00 08 00 27 a2 52 1a 00 00 00 00   ........'.R.....
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 01 0c 04 75   ......c.Sc5....u
+0120  6c 61 6e 37 0d 01 1c 02 03 0f 06 77 0c 2c 2f 1a   lan7.......w.,/.
+0130  79 2a ff 00 00 00 00 00 00 00 00 00 00 00 00 00   y*..............
+0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0150  00 00 00 00 00 00                                 ......

@@ -1,0 +1,1036 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.73.14.5            10.2.73.6             UDP      74     Source port: 42590  Destination port: traceroute
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472025341 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472025341 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe85e (59486)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            [Message: "Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x65fd [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 42590 (42590), Dst Port: traceroute (33434)
+    Source port: 42590 (42590)
+    Destination port: traceroute (33434)
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 5e 00 00 01 11 65 fd 0a 49 0e 05 0a 02   .<.^....e..I....
+0020  49 06 a6 5e 82 9a 00 28 6b 8f 40 41 42 43 44 45   I..^...(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000132062    10.73.14.5            10.2.73.6             UDP      74     Source port: 45467  Destination port: 33435
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472157403 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472157403 seconds
+    [Time delta from previous captured frame: 0.000132062 seconds]
+    [Time delta from previous displayed frame: 0.000132062 seconds]
+    [Time since reference or first frame: 0.000132062 seconds]
+    Frame Number: 2
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe85f (59487)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            [Message: "Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x65fc [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 45467 (45467), Dst Port: 33435 (33435)
+    Source port: 45467 (45467)
+    Destination port: 33435 (33435)
+        [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #1]
+            [Message: Possible traceroute: hop #1, attempt #1]
+            [Severity level: Chat]
+            [Group: Sequence]
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 5f 00 00 01 11 65 fc 0a 49 0e 05 0a 02   .<._....e..I....
+0020  49 06 b1 9b 82 9b 00 28 6b 8f 40 41 42 43 44 45   I......(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000265784    10.73.14.254          10.73.14.5            ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 3: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472291125 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472291125 seconds
+    [Time delta from previous captured frame: 0.000133722 seconds]
+    [Time delta from previous displayed frame: 0.000133722 seconds]
+    [Time since reference or first frame: 0.000265784 seconds]
+    Frame Number: 3
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x2fe9 (12265)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1868 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.254 (10.73.14.254)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x608f [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe85e (59486)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65fd [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 42590 (42590), Dst Port: traceroute (33434)
+        Source port: 42590 (42590)
+        Destination port: traceroute (33434)
+        Length: 40
+        Checksum: 0x764a [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 2f e9 00 00 40 01 18 68 0a 49 0e fe 0a 49   .X/...@..h.I...I
+0020  0e 05 0b 00 60 8f 00 00 00 00 45 00 00 3c e8 5e   ....`.....E..<.^
+0030  00 00 01 11 65 fd 0a 49 0e 05 0a 02 49 06 a6 5e   ....e..I....I..^
+0040  82 9a 00 28 76 4a 40 41 42 43 44 45 46 47 48 49   ...(vJ@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000285442    10.73.14.254          10.73.14.5            ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 4: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472310783 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472310783 seconds
+    [Time delta from previous captured frame: 0.000019658 seconds]
+    [Time delta from previous displayed frame: 0.000019658 seconds]
+    [Time since reference or first frame: 0.000285442 seconds]
+    Frame Number: 4
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x2fea (12266)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1867 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.254 (10.73.14.254)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x608f [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe85f (59487)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65fc [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 45467 (45467), Dst Port: 33435 (33435)
+        Source port: 45467 (45467)
+        Destination port: 33435 (33435)
+            [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #1]
+                [Message: Possible traceroute: hop #1, attempt #1]
+                [Severity level: Chat]
+                [Group: Sequence]
+        Length: 40
+        Checksum: 0x6b0c [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 2f ea 00 00 40 01 18 67 0a 49 0e fe 0a 49   .X/...@..g.I...I
+0020  0e 05 0b 00 60 8f 00 00 00 00 45 00 00 3c e8 5f   ....`.....E..<._
+0030  00 00 01 11 65 fc 0a 49 0e 05 0a 02 49 06 b1 9b   ....e..I....I...
+0040  82 9b 00 28 6b 0c 40 41 42 43 44 45 46 47 48 49   ...(k.@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000393686    10.73.14.5            10.2.73.6             UDP      74     Source port: 44254  Destination port: 33436
+
+Frame 5: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472419027 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472419027 seconds
+    [Time delta from previous captured frame: 0.000108244 seconds]
+    [Time delta from previous displayed frame: 0.000108244 seconds]
+    [Time since reference or first frame: 0.000393686 seconds]
+    Frame Number: 5
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe860 (59488)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            [Message: "Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x65fb [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 44254 (44254), Dst Port: 33436 (33436)
+    Source port: 44254 (44254)
+    Destination port: 33436 (33436)
+        [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #2]
+            [Message: Possible traceroute: hop #1, attempt #2]
+            [Severity level: Chat]
+            [Group: Sequence]
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 60 00 00 01 11 65 fb 0a 49 0e 05 0a 02   .<.`....e..I....
+0020  49 06 ac de 82 9c 00 28 6b 8f 40 41 42 43 44 45   I......(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.000498984    10.73.14.5            10.2.73.6             UDP      74     Source port: 60498  Destination port: 33437
+
+Frame 6: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472524325 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472524325 seconds
+    [Time delta from previous captured frame: 0.000105298 seconds]
+    [Time delta from previous displayed frame: 0.000105298 seconds]
+    [Time since reference or first frame: 0.000498984 seconds]
+    Frame Number: 6
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe861 (59489)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+        [Expert Info (Note/Sequence): "Time To Live" only 2]
+            [Message: "Time To Live" only 2]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x64fa [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 60498 (60498), Dst Port: 33437 (33437)
+    Source port: 60498 (60498)
+    Destination port: 33437 (33437)
+        [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #3]
+            [Message: Possible traceroute: hop #1, attempt #3]
+            [Severity level: Chat]
+            [Group: Sequence]
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 61 00 00 02 11 64 fa 0a 49 0e 05 0a 02   .<.a....d..I....
+0020  49 06 ec 52 82 9d 00 28 6b 8f 40 41 42 43 44 45   I..R...(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.000560229    10.73.14.254          10.73.14.5            ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 7: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472585570 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472585570 seconds
+    [Time delta from previous captured frame: 0.000061245 seconds]
+    [Time delta from previous displayed frame: 0.000061245 seconds]
+    [Time since reference or first frame: 0.000560229 seconds]
+    Frame Number: 7
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x2feb (12267)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1866 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.254 (10.73.14.254)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x608f [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe860 (59488)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65fb [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 44254 (44254), Dst Port: 33436 (33436)
+        Source port: 44254 (44254)
+        Destination port: 33436 (33436)
+            [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #2]
+                [Message: Possible traceroute: hop #1, attempt #2]
+                [Severity level: Chat]
+                [Group: Sequence]
+        Length: 40
+        Checksum: 0x6fc8 [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 2f eb 00 00 40 01 18 66 0a 49 0e fe 0a 49   .X/...@..f.I...I
+0020  0e 05 0b 00 60 8f 00 00 00 00 45 00 00 3c e8 60   ....`.....E..<.`
+0030  00 00 01 11 65 fb 0a 49 0e 05 0a 02 49 06 ac de   ....e..I....I...
+0040  82 9c 00 28 6f c8 40 41 42 43 44 45 46 47 48 49   ...(o.@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.000628366    10.73.14.5            10.2.73.6             UDP      74     Source port: 60293  Destination port: 33438
+
+Frame 8: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472653707 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472653707 seconds
+    [Time delta from previous captured frame: 0.000068137 seconds]
+    [Time delta from previous displayed frame: 0.000068137 seconds]
+    [Time since reference or first frame: 0.000628366 seconds]
+    Frame Number: 8
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe862 (59490)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+        [Expert Info (Note/Sequence): "Time To Live" only 2]
+            [Message: "Time To Live" only 2]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x64f9 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 60293 (60293), Dst Port: 33438 (33438)
+    Source port: 60293 (60293)
+    Destination port: 33438 (33438)
+        [Expert Info (Chat/Sequence): Possible traceroute: hop #2, attempt #1]
+            [Message: Possible traceroute: hop #2, attempt #1]
+            [Severity level: Chat]
+            [Group: Sequence]
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 62 00 00 02 11 64 f9 0a 49 0e 05 0a 02   .<.b....d..I....
+0020  49 06 eb 85 82 9e 00 28 6b 8f 40 41 42 43 44 45   I......(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.000751112    10.73.14.5            10.2.73.6             UDP      74     Source port: 37916  Destination port: 33439
+
+Frame 9: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.472776453 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.472776453 seconds
+    [Time delta from previous captured frame: 0.000122746 seconds]
+    [Time delta from previous displayed frame: 0.000122746 seconds]
+    [Time since reference or first frame: 0.000751112 seconds]
+    Frame Number: 9
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:data]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim) || (ip.dst == 224.0.0.0/24 && ip.ttl != 1)]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0xe863 (59491)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+        [Expert Info (Note/Sequence): "Time To Live" only 2]
+            [Message: "Time To Live" only 2]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0x64f8 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.2.73.6 (10.2.73.6)
+User Datagram Protocol, Src Port: 37916 (37916), Dst Port: 33439 (33439)
+    Source port: 37916 (37916)
+    Destination port: 33439 (33439)
+        [Expert Info (Chat/Sequence): Possible traceroute: hop #2, attempt #2]
+            [Message: Possible traceroute: hop #2, attempt #2]
+            [Severity level: Chat]
+            [Group: Sequence]
+    Length: 40
+    Checksum: 0x6b8f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Data (32 bytes)
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 32]
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 00   ..'b.W..'A....E.
+0010  00 3c e8 63 00 00 02 11 64 f8 0a 49 0e 05 0a 02   .<.c....d..I....
+0020  49 06 94 1c 82 9f 00 28 6b 8f 40 41 42 43 44 45   I......(k.@ABCDE
+0030  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0040  56 57 58 59 5a 5b 5c 5d 5e 5f                     VWXYZ[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.000997487    10.2.73.6             10.73.14.5            ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 10: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.473022828 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.473022828 seconds
+    [Time delta from previous captured frame: 0.000246375 seconds]
+    [Time delta from previous displayed frame: 0.000246375 seconds]
+    [Time since reference or first frame: 0.000997487 seconds]
+    Frame Number: 10
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6 (10.2.73.6), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x248c (9356)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (1)
+    Header checksum: 0xeb03 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.2.73.6 (10.2.73.6)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0x688c [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe861 (59489)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65fa [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 60498 (60498), Dst Port: 33437 (33437)
+        Source port: 60498 (60498)
+        Destination port: 33437 (33437)
+            [Expert Info (Chat/Sequence): Possible traceroute: hop #1, attempt #3]
+                [Message: Possible traceroute: hop #1, attempt #3]
+                [Severity level: Chat]
+                [Group: Sequence]
+        Length: 40
+        Checksum: 0x3053 [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 24 8c 00 00 3f 01 eb 03 0a 02 49 06 0a 49   .X$...?.....I..I
+0020  0e 05 03 03 68 8c 00 00 00 00 45 00 00 3c e8 61   ....h.....E..<.a
+0030  00 00 01 11 65 fa 0a 49 0e 05 0a 02 49 06 ec 52   ....e..I....I..R
+0040  82 9d 00 28 30 53 40 41 42 43 44 45 46 47 48 49   ...(0S@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.001111342    10.2.73.6             10.73.14.5            ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 11: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.473136683 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.473136683 seconds
+    [Time delta from previous captured frame: 0.000113855 seconds]
+    [Time delta from previous displayed frame: 0.000113855 seconds]
+    [Time since reference or first frame: 0.001111342 seconds]
+    Frame Number: 11
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6 (10.2.73.6), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x248d (9357)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (1)
+    Header checksum: 0xeb02 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.2.73.6 (10.2.73.6)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0x688c [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe862 (59490)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65f9 [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 60293 (60293), Dst Port: 33438 (33438)
+        Source port: 60293 (60293)
+        Destination port: 33438 (33438)
+            [Expert Info (Chat/Sequence): Possible traceroute: hop #2, attempt #1]
+                [Message: Possible traceroute: hop #2, attempt #1]
+                [Severity level: Chat]
+                [Group: Sequence]
+        Length: 40
+        Checksum: 0x311f [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 24 8d 00 00 3f 01 eb 02 0a 02 49 06 0a 49   .X$...?.....I..I
+0020  0e 05 03 03 68 8c 00 00 00 00 45 00 00 3c e8 62   ....h.....E..<.b
+0030  00 00 01 11 65 f9 0a 49 0e 05 0a 02 49 06 eb 85   ....e..I....I...
+0040  82 9e 00 28 31 1f 40 41 42 43 44 45 46 47 48 49   ...(1.@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.001121520    10.2.73.6             10.73.14.5            ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 12: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 15:32:45.473146861 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666528365.473146861 seconds
+    [Time delta from previous captured frame: 0.000010178 seconds]
+    [Time delta from previous displayed frame: 0.000010178 seconds]
+    [Time since reference or first frame: 0.001121520 seconds]
+    Frame Number: 12
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.6 (10.2.73.6), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0x248e (9358)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (1)
+    Header checksum: 0xeb01 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.2.73.6 (10.2.73.6)
+    Destination: 10.73.14.5 (10.73.14.5)
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0x688c [correct]
+    Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.2.73.6 (10.2.73.6)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0000 00.. = Differentiated Services Codepoint: Default (0x00)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 60
+        Identification: 0xe863 (59491)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                [Message: "Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: UDP (17)
+        Header checksum: 0x65f8 [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.5 (10.73.14.5)
+        Destination: 10.2.73.6 (10.2.73.6)
+    User Datagram Protocol, Src Port: 37916 (37916), Dst Port: 33439 (33439)
+        Source port: 37916 (37916)
+        Destination port: 33439 (33439)
+            [Expert Info (Chat/Sequence): Possible traceroute: hop #2, attempt #2]
+                [Message: Possible traceroute: hop #2, attempt #2]
+                [Severity level: Chat]
+                [Group: Sequence]
+        Length: 40
+        Checksum: 0x8887 [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Data (32 bytes)
+        Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+        [Length: 32]
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 c0   ..'A....'b.W..E.
+0010  00 58 24 8e 00 00 3f 01 eb 01 0a 02 49 06 0a 49   .X$...?.....I..I
+0020  0e 05 03 03 68 8c 00 00 00 00 45 00 00 3c e8 63   ....h.....E..<.c
+0030  00 00 01 11 65 f8 0a 49 0e 05 0a 02 49 06 94 1c   ....e..I....I...
+0040  82 9f 00 28 88 87 40 41 42 43 44 45 46 47 48 49   ...(..@ABCDEFGHI
+0050  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0060  5a 5b 5c 5d 5e 5f                                 Z[\]^_

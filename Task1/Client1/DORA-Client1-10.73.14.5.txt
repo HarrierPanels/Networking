@@ -1,0 +1,976 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0x3bfc118
+
+Frame 1: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.923364504 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.923364504 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 342 bytes (2736 bits)
+    Capture Length: 342 bytes (2736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:bootp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0 (0.0.0.0), Dst: 255.255.255.255 (255.255.255.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 328
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x3996 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 0.0.0.0 (0.0.0.0)
+    Destination: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: bootpc (68), Dst Port: bootps (67)
+    Source port: bootpc (68)
+    Destination port: bootps (67)
+    Length: 308
+    Checksum: 0x9491 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Bootstrap Protocol
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x03bfc118
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0 (0.0.0.0)
+    Your (client) IP address: 0.0.0.0 (0.0.0.0)
+    Next server IP address: 0.0.0.0 (0.0.0.0)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type
+        Length: 1
+        DHCP: Discover (1)
+    Option: (55) Parameter Request List
+        Length: 13
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (28) Broadcast Address
+        Parameter Request List Item: (2) Time Offset
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (12) Host Name
+        Parameter Request List Item: (40) Network Information Service Domain
+        Parameter Request List Item: (41) Network Information Service Servers
+        Parameter Request List Item: (42) Network Time Protocol Servers
+        Parameter Request List Item: (26) Interface MTU
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (3) Router
+    Option: (255) End
+        Option End: 255
+    Padding
+
+0000  ff ff ff ff ff ff 08 00 27 41 0f d0 08 00 45 10   ........'A....E.
+0010  01 48 00 00 00 00 80 11 39 96 00 00 00 00 ff ff   .H......9.......
+0020  ff ff 00 44 00 43 01 34 94 91 01 01 06 00 03 bf   ...D.C.4........
+0030  c1 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0040  00 00 00 00 00 00 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 01 37 0d 01   ......c.Sc5..7..
+0120  1c 02 79 0f 06 0c 28 29 2a 1a 77 03 ff 00 00 00   ..y...()*.w.....
+0130  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0150  00 00 00 00 00 00                                 ......
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000419460    10.73.14.254          10.73.14.5            DHCP     344    DHCP Offer    - Transaction ID 0x3bfc118
+
+Frame 2: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.923783964 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.923783964 seconds
+    [Time delta from previous captured frame: 0.000419460 seconds]
+    [Time delta from previous displayed frame: 0.000419460 seconds]
+    [Time since reference or first frame: 0.000419460 seconds]
+    Frame Number: 2
+    Frame Length: 344 bytes (2752 bits)
+    Capture Length: 344 bytes (2752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:bootp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 330
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x07ff [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.254 (10.73.14.254)
+    Destination: 10.73.14.5 (10.73.14.5)
+User Datagram Protocol, Src Port: bootps (67), Dst Port: bootpc (68)
+    Source port: bootps (67)
+    Destination port: bootpc (68)
+    Length: 310
+    Checksum: 0x279e [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Bootstrap Protocol
+    Message type: Boot Reply (2)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x03bfc118
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0 (0.0.0.0)
+    Your (client) IP address: 10.73.14.5 (10.73.14.5)
+    Next server IP address: 10.73.14.254 (10.73.14.254)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type
+        Length: 1
+        DHCP: Offer (2)
+    Option: (54) DHCP Server Identifier
+        Length: 4
+        DHCP Server Identifier: 10.73.14.254 (10.73.14.254)
+    Option: (51) IP Address Lease Time
+        Length: 4
+        IP Address Lease Time: (672s) 11 minutes, 12 seconds
+    Option: (1) Subnet Mask
+        Length: 4
+        Subnet Mask: 255.255.255.0 (255.255.255.0)
+    Option: (28) Broadcast Address
+        Length: 4
+        Broadcast Address: 10.73.14.255 (10.73.14.255)
+    Option: (15) Domain Name
+        Length: 20
+        Domain Name: internal.ubuntu1.ubu
+    Option: (6) Domain Name Server
+        Length: 4
+        Domain Name Server: 192.168.0.1 (192.168.0.1)
+    Option: (3) Router
+        Length: 4
+        Router: 10.73.14.254 (10.73.14.254)
+    Option: (255) End
+        Option End: 255
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 10   ..'A....'b.W..E.
+0010  01 4a 00 00 00 00 80 11 07 ff 0a 49 0e fe 0a 49   .J.........I...I
+0020  0e 05 00 43 00 44 01 36 27 9e 02 01 06 00 03 bf   ...C.D.6'.......
+0030  c1 18 00 00 00 00 00 00 00 00 0a 49 0e 05 0a 49   ...........I...I
+0040  0e fe 00 00 00 00 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 02 36 04 0a   ......c.Sc5..6..
+0120  49 0e fe 33 04 00 00 02 a0 01 04 ff ff ff 00 1c   I..3............
+0130  04 0a 49 0e ff 0f 14 69 6e 74 65 72 6e 61 6c 2e   ..I....internal.
+0140  75 62 75 6e 74 75 31 2e 75 62 75 06 04 c0 a8 00   ubuntu1.ubu.....
+0150  01 03 04 0a 49 0e fe ff                           ....I...
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000479148    10.73.14.5            10.73.14.254          ICMP     372    Destination unreachable (Host administratively prohibited)
+
+Frame 3: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.923843652 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.923843652 seconds
+    [Time delta from previous captured frame: 0.000059688 seconds]
+    [Time delta from previous displayed frame: 0.000059688 seconds]
+    [Time since reference or first frame: 0.000479148 seconds]
+    Frame Number: 3
+    Frame Length: 372 bytes (2976 bits)
+    Capture Length: 372 bytes (2976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:bootp]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.73.14.254 (10.73.14.254)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xd0 (DSCP 0x34: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1101 00.. = Differentiated Services Codepoint: Unknown (0x34)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 358
+    Identification: 0x5b86 (23430)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0xebac [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.73.14.254 (10.73.14.254)
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 10 (Host administratively prohibited)
+    Checksum: 0x2fd2 [correct]
+    Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 330
+        Identification: 0x0000 (0)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 128
+        Protocol: UDP (17)
+        Header checksum: 0x07ff [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.254 (10.73.14.254)
+        Destination: 10.73.14.5 (10.73.14.5)
+    User Datagram Protocol, Src Port: bootps (67), Dst Port: bootpc (68)
+        Source port: bootps (67)
+        Destination port: bootpc (68)
+        Length: 310
+        Checksum: 0x279e [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Bootstrap Protocol
+        Message type: Boot Reply (2)
+        Hardware type: Ethernet (0x01)
+        Hardware address length: 6
+        Hops: 0
+        Transaction ID: 0x03bfc118
+        Seconds elapsed: 0
+        Bootp flags: 0x0000 (Unicast)
+            0... .... .... .... = Broadcast flag: Unicast
+            .000 0000 0000 0000 = Reserved flags: 0x0000
+        Client IP address: 0.0.0.0 (0.0.0.0)
+        Your (client) IP address: 10.73.14.5 (10.73.14.5)
+        Next server IP address: 10.73.14.254 (10.73.14.254)
+        Relay agent IP address: 0.0.0.0 (0.0.0.0)
+        Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Client hardware address padding: 00000000000000000000
+        Server host name not given
+        Boot file name not given
+        Magic cookie: DHCP
+        Option: (53) DHCP Message Type
+            Length: 1
+            DHCP: Offer (2)
+        Option: (54) DHCP Server Identifier
+            Length: 4
+            DHCP Server Identifier: 10.73.14.254 (10.73.14.254)
+        Option: (51) IP Address Lease Time
+            Length: 4
+            IP Address Lease Time: (672s) 11 minutes, 12 seconds
+        Option: (1) Subnet Mask
+            Length: 4
+            Subnet Mask: 255.255.255.0 (255.255.255.0)
+        Option: (28) Broadcast Address
+            Length: 4
+            Broadcast Address: 10.73.14.255 (10.73.14.255)
+        Option: (15) Domain Name
+            Length: 20
+            Domain Name: internal.ubuntu1.ubu
+        Option: (6) Domain Name Server
+            Length: 4
+            Domain Name Server: 192.168.0.1 (192.168.0.1)
+        Option: (3) Router
+            Length: 4
+            Router: 10.73.14.254 (10.73.14.254)
+        Option: (255) End
+            Option End: 255
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 d0   ..'b.W..'A....E.
+0010  01 66 5b 86 00 00 40 01 eb ac 0a 49 0e 05 0a 49   .f[...@....I...I
+0020  0e fe 03 0a 2f d2 00 00 00 00 45 10 01 4a 00 00   ..../.....E..J..
+0030  00 00 80 11 07 ff 0a 49 0e fe 0a 49 0e 05 00 43   .......I...I...C
+0040  00 44 01 36 27 9e 02 01 06 00 03 bf c1 18 00 00   .D.6'...........
+0050  00 00 00 00 00 00 0a 49 0e 05 0a 49 0e fe 00 00   .......I...I....
+0060  00 00 08 00 27 41 0f d0 00 00 00 00 00 00 00 00   ....'A..........
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0120  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0130  00 00 63 82 53 63 35 01 02 36 04 0a 49 0e fe 33   ..c.Sc5..6..I..3
+0140  04 00 00 02 a0 01 04 ff ff ff 00 1c 04 0a 49 0e   ..............I.
+0150  ff 0f 14 69 6e 74 65 72 6e 61 6c 2e 75 62 75 6e   ...internal.ubun
+0160  74 75 31 2e 75 62 75 06 04 c0 a8 00 01 03 04 0a   tu1.ubu.........
+0170  49 0e fe ff                                       I...
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000798934    0.0.0.0               255.255.255.255       DHCP     342    DHCP Request  - Transaction ID 0x3bfc118
+
+Frame 4: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.924163438 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.924163438 seconds
+    [Time delta from previous captured frame: 0.000319786 seconds]
+    [Time delta from previous displayed frame: 0.000319786 seconds]
+    [Time since reference or first frame: 0.000798934 seconds]
+    Frame Number: 4
+    Frame Length: 342 bytes (2736 bits)
+    Capture Length: 342 bytes (2736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:bootp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0 (0.0.0.0), Dst: 255.255.255.255 (255.255.255.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 328
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x3996 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 0.0.0.0 (0.0.0.0)
+    Destination: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: bootpc (68), Dst Port: bootps (67)
+    Source port: bootpc (68)
+    Destination port: bootps (67)
+    Length: 308
+    Checksum: 0xf4f7 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Bootstrap Protocol
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x03bfc118
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0 (0.0.0.0)
+    Your (client) IP address: 0.0.0.0 (0.0.0.0)
+    Next server IP address: 0.0.0.0 (0.0.0.0)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type
+        Length: 1
+        DHCP: Request (3)
+    Option: (54) DHCP Server Identifier
+        Length: 4
+        DHCP Server Identifier: 10.73.14.254 (10.73.14.254)
+    Option: (50) Requested IP Address
+        Length: 4
+        Requested IP Address: 10.73.14.5 (10.73.14.5)
+    Option: (55) Parameter Request List
+        Length: 13
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (28) Broadcast Address
+        Parameter Request List Item: (2) Time Offset
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (12) Host Name
+        Parameter Request List Item: (40) Network Information Service Domain
+        Parameter Request List Item: (41) Network Information Service Servers
+        Parameter Request List Item: (42) Network Time Protocol Servers
+        Parameter Request List Item: (26) Interface MTU
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (3) Router
+    Option: (255) End
+        Option End: 255
+    Padding
+
+0000  ff ff ff ff ff ff 08 00 27 41 0f d0 08 00 45 10   ........'A....E.
+0010  01 48 00 00 00 00 80 11 39 96 00 00 00 00 ff ff   .H......9.......
+0020  ff ff 00 44 00 43 01 34 f4 f7 01 01 06 00 03 bf   ...D.C.4........
+0030  c1 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0040  00 00 00 00 00 00 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 03 36 04 0a   ......c.Sc5..6..
+0120  49 0e fe 32 04 0a 49 0e 05 37 0d 01 1c 02 79 0f   I..2..I..7....y.
+0130  06 0c 28 29 2a 1a 77 03 ff 00 00 00 00 00 00 00   ..()*.w.........
+0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0150  00 00 00 00 00 00                                 ......
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001259119    10.73.14.254          10.73.14.5            DHCP     344    DHCP ACK      - Transaction ID 0x3bfc118
+
+Frame 5: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.924623623 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.924623623 seconds
+    [Time delta from previous captured frame: 0.000460185 seconds]
+    [Time delta from previous displayed frame: 0.000460185 seconds]
+    [Time since reference or first frame: 0.001259119 seconds]
+    Frame Number: 5
+    Frame Length: 344 bytes (2752 bits)
+    Capture Length: 344 bytes (2752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:bootp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 330
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x07ff [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.254 (10.73.14.254)
+    Destination: 10.73.14.5 (10.73.14.5)
+User Datagram Protocol, Src Port: bootps (67), Dst Port: bootpc (68)
+    Source port: bootps (67)
+    Destination port: bootpc (68)
+    Length: 310
+    Checksum: 0x249e [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Bootstrap Protocol
+    Message type: Boot Reply (2)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x03bfc118
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0 (0.0.0.0)
+    Your (client) IP address: 10.73.14.5 (10.73.14.5)
+    Next server IP address: 10.73.14.254 (10.73.14.254)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type
+        Length: 1
+        DHCP: ACK (5)
+    Option: (54) DHCP Server Identifier
+        Length: 4
+        DHCP Server Identifier: 10.73.14.254 (10.73.14.254)
+    Option: (51) IP Address Lease Time
+        Length: 4
+        IP Address Lease Time: (672s) 11 minutes, 12 seconds
+    Option: (1) Subnet Mask
+        Length: 4
+        Subnet Mask: 255.255.255.0 (255.255.255.0)
+    Option: (28) Broadcast Address
+        Length: 4
+        Broadcast Address: 10.73.14.255 (10.73.14.255)
+    Option: (15) Domain Name
+        Length: 20
+        Domain Name: internal.ubuntu1.ubu
+    Option: (6) Domain Name Server
+        Length: 4
+        Domain Name Server: 192.168.0.1 (192.168.0.1)
+    Option: (3) Router
+        Length: 4
+        Router: 10.73.14.254 (10.73.14.254)
+    Option: (255) End
+        Option End: 255
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 00 45 10   ..'A....'b.W..E.
+0010  01 4a 00 00 00 00 80 11 07 ff 0a 49 0e fe 0a 49   .J.........I...I
+0020  0e 05 00 43 00 44 01 36 24 9e 02 01 06 00 03 bf   ...C.D.6$.......
+0030  c1 18 00 00 00 00 00 00 00 00 0a 49 0e 05 0a 49   ...........I...I
+0040  0e fe 00 00 00 00 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 63 82 53 63 35 01 05 36 04 0a   ......c.Sc5..6..
+0120  49 0e fe 33 04 00 00 02 a0 01 04 ff ff ff 00 1c   I..3............
+0130  04 0a 49 0e ff 0f 14 69 6e 74 65 72 6e 61 6c 2e   ..I....internal.
+0140  75 62 75 6e 74 75 31 2e 75 62 75 06 04 c0 a8 00   ubuntu1.ubu.....
+0150  01 03 04 0a 49 0e fe ff                           ....I...
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.001287746    10.73.14.5            10.73.14.254          ICMP     372    Destination unreachable (Host administratively prohibited)
+
+Frame 6: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.924652250 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.924652250 seconds
+    [Time delta from previous captured frame: 0.000028627 seconds]
+    [Time delta from previous displayed frame: 0.000028627 seconds]
+    [Time since reference or first frame: 0.001287746 seconds]
+    Frame Number: 6
+    Frame Length: 372 bytes (2976 bits)
+    Capture Length: 372 bytes (2976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:icmp:ip:udp:bootp]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 10.73.14.5 (10.73.14.5), Dst: 10.73.14.254 (10.73.14.254)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xd0 (DSCP 0x34: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        1101 00.. = Differentiated Services Codepoint: Unknown (0x34)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 358
+    Identification: 0x5b87 (23431)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0xebab [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.73.14.5 (10.73.14.5)
+    Destination: 10.73.14.254 (10.73.14.254)
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 10 (Host administratively prohibited)
+    Checksum: 0x2fd2 [correct]
+    Internet Protocol Version 4, Src: 10.73.14.254 (10.73.14.254), Dst: 10.73.14.5 (10.73.14.5)
+        Version: 4
+        Header length: 20 bytes
+        Differentiated Services Field: 0x10 (DSCP 0x04: Unknown DSCP; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+            0001 00.. = Differentiated Services Codepoint: Unknown (0x04)
+            .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+        Total Length: 330
+        Identification: 0x0000 (0)
+        Flags: 0x00
+            0... .... = Reserved bit: Not set
+            .0.. .... = Don't fragment: Not set
+            ..0. .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 128
+        Protocol: UDP (17)
+        Header checksum: 0x07ff [validation disabled]
+            [Good: False]
+            [Bad: False]
+        Source: 10.73.14.254 (10.73.14.254)
+        Destination: 10.73.14.5 (10.73.14.5)
+    User Datagram Protocol, Src Port: bootps (67), Dst Port: bootpc (68)
+        Source port: bootps (67)
+        Destination port: bootpc (68)
+        Length: 310
+        Checksum: 0x249e [validation disabled]
+            [Good Checksum: False]
+            [Bad Checksum: False]
+    Bootstrap Protocol
+        Message type: Boot Reply (2)
+        Hardware type: Ethernet (0x01)
+        Hardware address length: 6
+        Hops: 0
+        Transaction ID: 0x03bfc118
+        Seconds elapsed: 0
+        Bootp flags: 0x0000 (Unicast)
+            0... .... .... .... = Broadcast flag: Unicast
+            .000 0000 0000 0000 = Reserved flags: 0x0000
+        Client IP address: 0.0.0.0 (0.0.0.0)
+        Your (client) IP address: 10.73.14.5 (10.73.14.5)
+        Next server IP address: 10.73.14.254 (10.73.14.254)
+        Relay agent IP address: 0.0.0.0 (0.0.0.0)
+        Client MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Client hardware address padding: 00000000000000000000
+        Server host name not given
+        Boot file name not given
+        Magic cookie: DHCP
+        Option: (53) DHCP Message Type
+            Length: 1
+            DHCP: ACK (5)
+        Option: (54) DHCP Server Identifier
+            Length: 4
+            DHCP Server Identifier: 10.73.14.254 (10.73.14.254)
+        Option: (51) IP Address Lease Time
+            Length: 4
+            IP Address Lease Time: (672s) 11 minutes, 12 seconds
+        Option: (1) Subnet Mask
+            Length: 4
+            Subnet Mask: 255.255.255.0 (255.255.255.0)
+        Option: (28) Broadcast Address
+            Length: 4
+            Broadcast Address: 10.73.14.255 (10.73.14.255)
+        Option: (15) Domain Name
+            Length: 20
+            Domain Name: internal.ubuntu1.ubu
+        Option: (6) Domain Name Server
+            Length: 4
+            Domain Name Server: 192.168.0.1 (192.168.0.1)
+        Option: (3) Router
+            Length: 4
+            Router: 10.73.14.254 (10.73.14.254)
+        Option: (255) End
+            Option End: 255
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 00 45 d0   ..'b.W..'A....E.
+0010  01 66 5b 87 00 00 40 01 eb ab 0a 49 0e 05 0a 49   .f[...@....I...I
+0020  0e fe 03 0a 2f d2 00 00 00 00 45 10 01 4a 00 00   ..../.....E..J..
+0030  00 00 80 11 07 ff 0a 49 0e fe 0a 49 0e 05 00 43   .......I...I...C
+0040  00 44 01 36 24 9e 02 01 06 00 03 bf c1 18 00 00   .D.6$...........
+0050  00 00 00 00 00 00 0a 49 0e 05 0a 49 0e fe 00 00   .......I...I....
+0060  00 00 08 00 27 41 0f d0 00 00 00 00 00 00 00 00   ....'A..........
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0110  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0120  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0130  00 00 63 82 53 63 35 01 05 36 04 0a 49 0e fe 33   ..c.Sc5..6..I..3
+0140  04 00 00 02 a0 01 04 ff ff ff 00 1c 04 0a 49 0e   ..............I.
+0150  ff 0f 14 69 6e 74 65 72 6e 61 6c 2e 75 62 75 6e   ...internal.ubun
+0160  74 75 31 2e 75 62 75 06 04 c0 a8 00 01 03 04 0a   tu1.ubu.........
+0170  49 0e fe ff                                       I...
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.041972274    CadmusCo_41:0f:d0     Broadcast             ARP      42     Who has 10.73.14.5?  Tell 0.0.0.0
+
+Frame 7: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:08.965336778 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521788.965336778 seconds
+    [Time delta from previous captured frame: 0.040684528 seconds]
+    [Time delta from previous displayed frame: 0.040684528 seconds]
+    [Time since reference or first frame: 0.041972274 seconds]
+    Frame Number: 7
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Sender IP address: 0.0.0.0 (0.0.0.0)
+    Target MAC address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Target IP address: 10.73.14.5 (10.73.14.5)
+
+0000  ff ff ff ff ff ff 08 00 27 41 0f d0 08 06 00 01   ........'A......
+0010  08 00 06 04 00 01 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0020  ff ff ff ff ff ff 0a 49 0e 05                     .......I..
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.043091958    CadmusCo_41:0f:d0     Broadcast             ARP      42     Who has 10.73.14.5?  Tell 0.0.0.0
+
+Frame 8: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:09.966456462 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521789.966456462 seconds
+    [Time delta from previous captured frame: 1.001119684 seconds]
+    [Time delta from previous displayed frame: 1.001119684 seconds]
+    [Time since reference or first frame: 1.043091958 seconds]
+    Frame Number: 8
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Sender IP address: 0.0.0.0 (0.0.0.0)
+    Target MAC address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Target IP address: 10.73.14.5 (10.73.14.5)
+
+0000  ff ff ff ff ff ff 08 00 27 41 0f d0 08 06 00 01   ........'A......
+0010  08 00 06 04 00 01 08 00 27 41 0f d0 00 00 00 00   ........'A......
+0020  ff ff ff ff ff ff 0a 49 0e 05                     .......I..
+No.     Time           Source                Destination           Protocol Length Info
+      9 5.010259175    CadmusCo_41:0f:d0     CadmusCo_62:0e:57     ARP      42     Who has 10.73.14.254?  Tell 10.73.14.5
+
+Frame 9: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:13.933623679 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521793.933623679 seconds
+    [Time delta from previous captured frame: 3.967167217 seconds]
+    [Time delta from previous displayed frame: 3.967167217 seconds]
+    [Time since reference or first frame: 5.010259175 seconds]
+    Frame Number: 9
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0), Dst: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Destination: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Sender IP address: 10.73.14.5 (10.73.14.5)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 10.73.14.254 (10.73.14.254)
+
+0000  08 00 27 62 0e 57 08 00 27 41 0f d0 08 06 00 01   ..'b.W..'A......
+0010  08 00 06 04 00 01 08 00 27 41 0f d0 0a 49 0e 05   ........'A...I..
+0020  00 00 00 00 00 00 0a 49 0e fe                     .......I..
+No.     Time           Source                Destination           Protocol Length Info
+     10 5.010562942    CadmusCo_62:0e:57     CadmusCo_41:0f:d0     ARP      60     10.73.14.254 is at 08:00:27:62:0e:57
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+    Interface id: 0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 23, 2022 13:43:13.933927446 MSK
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666521793.933927446 seconds
+    [Time delta from previous captured frame: 0.000303767 seconds]
+    [Time delta from previous displayed frame: 0.000303767 seconds]
+    [Time since reference or first frame: 5.010562942 seconds]
+    Frame Number: 10
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: CadmusCo_62:0e:57 (08:00:27:62:0e:57), Dst: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Destination: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        Address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        Address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+    Padding: 000000000000000000000000000000000000
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: CadmusCo_62:0e:57 (08:00:27:62:0e:57)
+    Sender IP address: 10.73.14.254 (10.73.14.254)
+    Target MAC address: CadmusCo_41:0f:d0 (08:00:27:41:0f:d0)
+    Target IP address: 10.73.14.5 (10.73.14.5)
+
+0000  08 00 27 41 0f d0 08 00 27 62 0e 57 08 06 00 01   ..'A....'b.W....
+0010  08 00 06 04 00 02 08 00 27 62 0e 57 0a 49 0e fe   ........'b.W.I..
+0020  08 00 27 41 0f d0 0a 49 0e 05 00 00 00 00 00 00   ..'A...I........
+0030  00 00 00 00 00 00 00 00 00 00 00 00               ............

@@ -1,0 +1,38 @@
+sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s8
+
+NM_CONTROLLED=no
+NETWORK=10.73.14.0
+NETMASK=255.255.255
+
+NM_CONTROLLED=no
+NETWORK=172.16.14.0
+NETMASK=255.255.255
+IPADDR=172.16.14.1
+
+IPADDR=172.16.14.1
+PREFIX=24
+
+
+sudo vi /etc/sysconfig/network
+NETWORKING=yes
+GATEWAY=10.73.14.254
+
+sudo chkconfig NetworkManager off
+sudo chkconfig network on
+sudo service NetworkManager stop
+sudo service network start
+
+ping -c 2 8.8.8.8
+ping -c 2 google.com
+
+sudo dhclient -r
+sudo dhclient
+
+ping -c 2 10.2.73.6
+traceroute -m 2 10.2.73.6
+
+ping -I enp0s8 -c 2 172.16.14.2
+
+traceroute google.com
+

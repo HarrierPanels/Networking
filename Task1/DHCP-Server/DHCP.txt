@@ -1,0 +1,66 @@
+sudo nano /etc/netplan/01-network-manager-all.yaml
+
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    enp0s3: 
+      addresses: [192.168.0.200/24]
+      routes:
+        - to: default
+          via: 192.168.0.1
+      nameservers:
+        addresses: [192.168.0.1]
+      dhcp4: no
+    enp0s8:
+      addresses: [10.73.14.254/24]
+      nameservers:
+        addresses: [192.168.0.1]
+      dhcp4: no
+    enp0s9:
+      addresses: [10.2.73.254/24]
+      nameservers:
+        addresses: [192.168.0.1]
+      dhcp4: no
+
+
+
+sudo netplan apply
+
+sudo nano /etc/sysctl.conf
+net.ipv4.ip_forward=1
+
+sudo nano /etc/default/isc-dhcp-server
+INTERFACESv4="enp0s8 enp0s9"
+INTERFACESv6="enp0s8 enp0s9"
+
+sudo nano /etc/dhcp/dhcpd.conf
+############ Centos 7  ###########
+
+subnet 10.73.14.0 netmask 255.255.255.0 {
+  range 10.73.14.5 10.73.14.20;
+  option domain-name-servers 192.168.0.1;
+  option domain-name "internal.ubuntu1.ubu";
+  option subnet-mask 255.255.255.0;
+  option routers 10.73.14.254;
+  option broadcast-address 10.73.14.255;
+  default-lease-time 720;
+  max-lease-time 7200;
+}
+
+############ Ubuntu ###########
+
+subnet 10.2.73.0 netmask 255.255.255.0 {
+  range 10.2.73.5 10.2.73.20;
+  option domain-name-servers 192.168.0.1;
+  option domain-name "internal.ubuntu1.ubu";
+  option subnet-mask 255.255.255.0;
+  option routers 10.2.73.254;
+  option broadcast-address 10.2.73.255;
+  default-lease-time 720;
+  max-lease-time 7200;
+}
+
+
+sudo service isc-dhcp-server status
+sudo service isc-dhcp-server restart
