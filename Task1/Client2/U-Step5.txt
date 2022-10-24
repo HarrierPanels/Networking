@@ -1,0 +1,26 @@
+sudo nano /etc/netplan/01-network-manager-all.yaml
+
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    enp0s3:
+      routes:
+        - to: default
+          via: 10.2.73.254
+      nameservers:
+        addresses: [192.168.0.1]
+      dhcp4: yes
+    enp0s8:
+      addresses: [172.16.14.2/24]
+      dhcp4: no
+
+
+
+sudo netplan apply
+
+ping -c 2 172.17.24.1
+ping -c 2 172.17.34.1
+
+traceroute -m 2 172.17.24.1
+traceroute -m 2 172.17.34.1
