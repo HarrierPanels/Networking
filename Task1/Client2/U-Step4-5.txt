@@ -1,0 +1,41 @@
+sudo nano /etc/netplan/01-network-manager-all.yaml
+
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    enp0s3:
+      addresses: [10.2.73.5/24]
+      routes:
+        - to: 192.168.0.1 #default
+          via: 10.2.73.254
+        - to: 172.17.24.0/24
+          via: 10.2.73.254
+      nameservers:
+        addresses: [192.168.0.1]
+      dhcp4: no
+    enp0s8:
+      addresses: [172.16.14.2/24]
+      dhcp4: no
+
+
+sudo netplan apply
+
+echo 101 table2 >> /etc/iproute2/rt_tables
+echo 100 table1 >> /etc/iproute2/rt_tables
+
+ip rule add from 10.2.73.5 table table1
+ip route add default via 10.2.73.5 dev enp0s3 table table1
+ip rule add from 172.16.14.2 table table2
+ip route add default via 172.16.14.2 dev enp0s8 table table2
+
+ip rule ls
+0:	from all lookup local
+32764:	from 172.16.14.2 lookup table2
+32765:	from 10.2.73.5 lookup table1
+32766:	from all lookup main
+32767:	from all lookup default
+
+ping -c 2 172.17.34.1
+
+traceroute -m 2 172.17.34.1
