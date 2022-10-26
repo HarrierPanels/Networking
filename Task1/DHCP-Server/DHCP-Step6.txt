@@ -1,0 +1,6 @@
+sudo service sshd restart
+sudo service sshd status
+
+sudo nano /etc/ssh/sshd_config
+
+sudo wireshark

@@ -1,0 +1,8 @@
+sudo wireshark
+
+sudo nano /etc/ssh/ssh_config
+ssh-copy-id -i ~/Desktop/id_rsa.pub a@10.2.73.254
+ssh-copy-id -i ~/Desktop/id_rsa.pub a@10.73.14.5
+
+ssh server
+ssh a@10.73.14.5

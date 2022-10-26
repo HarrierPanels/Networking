@@ -1,0 +1,10 @@
+sudo wireshark
+
+sudo vi /etc/ssh/ssh_config
+
+sudo ssh-copy-id -i ~/client1.pub a@10.73.14.254
+sudo ssh-copy-id -i ~/client1.pub a@10.73.14.254
+
+ssh server
+
+ssh 'a@10.2.73.5'
