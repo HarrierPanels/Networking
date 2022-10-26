@@ -1,0 +1,297 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.2.73.5             172.17.24.1           ICMP     98     Echo (ping) request  id=0x0006, seq=1/256, ttl=64 (reply in 2)
+
+Frame 1: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 26, 2022 21:27:48.047938030 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666808868.047938030 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+    Destination: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.5, Dst: 172.17.24.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 84
+    Identification: 0x8aac (35500)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0x98e3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.5
+    Destination Address: 172.17.24.1
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xcd8b [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 6 (0x0006)
+    Identifier (LE): 1536 (0x0600)
+    Sequence Number (BE): 1 (0x0001)
+    Sequence Number (LE): 256 (0x0100)
+    [Response frame: 2]
+    Timestamp from icmp data: Oct 26, 2022 21:27:48.000000000 EEST
+    [Timestamp from icmp data (relative): 0.047938030 seconds]
+    Data (48 bytes)
+        Data: edba000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+        [Length: 48]
+
+0000  08 00 27 9f a5 ba 08 00 27 57 5f a0 08 00 45 00   ..'.....'W_...E.
+0010  00 54 8a ac 40 00 40 01 98 e3 0a 02 49 05 ac 11   .T..@.@.....I...
+0020  18 01 08 00 cd 8b 00 06 00 01 24 7c 59 63 00 00   ..........$|Yc..
+0030  00 00 ed ba 00 00 00 00 00 00 10 11 12 13 14 15   ................
+0040  16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25   .......... !"#$%
+0050  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0060  36 37                                             67
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000649203    172.17.24.1           10.2.73.5             ICMP     98     Echo (ping) reply    id=0x0006, seq=1/256, ttl=63 (request in 1)
+
+Frame 2: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 26, 2022 21:27:48.048587233 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666808868.048587233 seconds
+    [Time delta from previous captured frame: 0.000649203 seconds]
+    [Time delta from previous displayed frame: 0.000649203 seconds]
+    [Time since reference or first frame: 0.000649203 seconds]
+    Frame Number: 2
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.17.24.1, Dst: 10.2.73.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 84
+    Identification: 0x031b (795)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 63
+    Protocol: ICMP (1)
+    Header Checksum: 0x6175 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 172.17.24.1
+    Destination Address: 10.2.73.5
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xd58b [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 6 (0x0006)
+    Identifier (LE): 1536 (0x0600)
+    Sequence Number (BE): 1 (0x0001)
+    Sequence Number (LE): 256 (0x0100)
+    [Request frame: 1]
+    [Response time: 0,649 ms]
+    Timestamp from icmp data: Oct 26, 2022 21:27:48.000000000 EEST
+    [Timestamp from icmp data (relative): 0.048587233 seconds]
+    Data (48 bytes)
+        Data: edba000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+        [Length: 48]
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 00 45 00   ..'W_...'.....E.
+0010  00 54 03 1b 00 00 3f 01 61 75 ac 11 18 01 0a 02   .T....?.au......
+0020  49 05 00 00 d5 8b 00 06 00 01 24 7c 59 63 00 00   I.........$|Yc..
+0030  00 00 ed ba 00 00 00 00 00 00 10 11 12 13 14 15   ................
+0040  16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25   .......... !"#$%
+0050  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0060  36 37                                             67
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 1.026083957    10.2.73.5             172.17.24.1           ICMP     98     Echo (ping) request  id=0x0006, seq=2/512, ttl=64 (reply in 4)
+
+Frame 3: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 26, 2022 21:27:49.074021987 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666808869.074021987 seconds
+    [Time delta from previous captured frame: 1.025434754 seconds]
+    [Time delta from previous displayed frame: 1.025434754 seconds]
+    [Time since reference or first frame: 1.026083957 seconds]
+    Frame Number: 3
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+    Destination: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.2.73.5, Dst: 172.17.24.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 84
+    Identification: 0x8abb (35515)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0x98d4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.2.73.5
+    Destination Address: 172.17.24.1
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xb324 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 6 (0x0006)
+    Identifier (LE): 1536 (0x0600)
+    Sequence Number (BE): 2 (0x0002)
+    Sequence Number (LE): 512 (0x0200)
+    [Response frame: 4]
+    Timestamp from icmp data: Oct 26, 2022 21:27:49.000000000 EEST
+    [Timestamp from icmp data (relative): 0.074021987 seconds]
+    Data (48 bytes)
+        Data: 0621010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+        [Length: 48]
+
+0000  08 00 27 9f a5 ba 08 00 27 57 5f a0 08 00 45 00   ..'.....'W_...E.
+0010  00 54 8a bb 40 00 40 01 98 d4 0a 02 49 05 ac 11   .T..@.@.....I...
+0020  18 01 08 00 b3 24 00 06 00 02 25 7c 59 63 00 00   .....$....%|Yc..
+0030  00 00 06 21 01 00 00 00 00 00 10 11 12 13 14 15   ...!............
+0040  16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25   .......... !"#$%
+0050  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0060  36 37                                             67
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 1.027282190    172.17.24.1           10.2.73.5             ICMP     98     Echo (ping) reply    id=0x0006, seq=2/512, ttl=63 (request in 3)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 26, 2022 21:27:49.075220220 EEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1666808869.075220220 seconds
+    [Time delta from previous captured frame: 0.001198233 seconds]
+    [Time delta from previous displayed frame: 0.001198233 seconds]
+    [Time since reference or first frame: 1.027282190 seconds]
+    Frame Number: 4
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba), Dst: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+    Destination: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        Address: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        Address: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.17.24.1, Dst: 10.2.73.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 84
+    Identification: 0x03f1 (1009)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 63
+    Protocol: ICMP (1)
+    Header Checksum: 0x609f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 172.17.24.1
+    Destination Address: 10.2.73.5
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xbb24 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 6 (0x0006)
+    Identifier (LE): 1536 (0x0600)
+    Sequence Number (BE): 2 (0x0002)
+    Sequence Number (LE): 512 (0x0200)
+    [Request frame: 3]
+    [Response time: 1,198 ms]
+    Timestamp from icmp data: Oct 26, 2022 21:27:49.000000000 EEST
+    [Timestamp from icmp data (relative): 0.075220220 seconds]
+    Data (48 bytes)
+        Data: 0621010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+        [Length: 48]
+
+0000  08 00 27 57 5f a0 08 00 27 9f a5 ba 08 00 45 00   ..'W_...'.....E.
+0010  00 54 03 f1 00 00 3f 01 60 9f ac 11 18 01 0a 02   .T....?.`.......
+0020  49 05 00 00 bb 24 00 06 00 02 25 7c 59 63 00 00   I....$....%|Yc..
+0030  00 00 06 21 01 00 00 00 00 00 10 11 12 13 14 15   ...!............
+0040  16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25   .......... !"#$%
+0050  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0060  36 37                                             67

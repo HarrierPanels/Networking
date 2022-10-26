@@ -1,0 +1,15 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.2.73.5             172.17.34.1           ICMP     98     Echo (ping) request  id=0x0007, seq=1/256, ttl=64 (no response found!)
+
+Frame 1: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+Internet Protocol Version 4, Src: 10.2.73.5, Dst: 172.17.34.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 1.017763007    10.2.73.5             172.17.34.1           ICMP     98     Echo (ping) request  id=0x0007, seq=2/512, ttl=64 (no response found!)
+
+Frame 2: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface enp0s3, id 0
+Ethernet II, Src: PcsCompu_57:5f:a0 (08:00:27:57:5f:a0), Dst: PcsCompu_9f:a5:ba (08:00:27:9f:a5:ba)
+Internet Protocol Version 4, Src: 10.2.73.5, Dst: 172.17.34.1
+Internet Control Message Protocol

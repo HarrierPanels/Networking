@@ -1,0 +1,3 @@
+sudo wireshark
+
+ssh 'a@10.2.73.5'

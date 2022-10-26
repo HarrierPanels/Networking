@@ -1,0 +1,7 @@
+sudo iptables -L
+
+sudo iptables -A FORWARD -p tcp -d 10.2.73.0/255.255.255.0 --dport ssh -j DROP
+
+sudo iptables -A FORWARD -p icmp -d 172.17.34.1 -j DROP
+
+

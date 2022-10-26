@@ -1,0 +1,6 @@
+sudo wireshark
+
+ssh a@10.73.14.5
+
+ping -c 2 172.17.24.1
+ping -c 2 172.17.34.1
