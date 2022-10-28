@@ -1,0 +1,6 @@
+sudo iptables -t nat -L
+sudo iptables -t nat -A POSTROUTING -s 10.0.0.0/17 -j SNAT --to-source 192.168.0.200
+sudo iptables -t nat -D POSTROUTING 1
+sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+sudo wireshark
