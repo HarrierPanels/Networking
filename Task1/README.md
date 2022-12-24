@@ -20,7 +20,7 @@ The  address  of  the  Net3  network  is  10.MY0/24. The  Net4  network  address
 
 1. Configure  static  addresses  on  all  interfaces  on  Server\_1.
 1. Configure  the  DHCP  service  on  Server\_1,  which  will  configure  the  Int1  addresses  of  Client\_1  and  Client\_2
-1. Using  the  ping  and  traceroute  commands,  check  the  connection  between  the  virtual  ones cars  Explain  the  result.
+1. Using  the  ping  and  traceroute  commands,  check  the  connection  between  the  virtual  machines and  Explain  the  result.
 
 **WARNING!**  In  order  for  packets  to  pass  from  Client\_1  and  Client\_2  to  the  Internet  (more  precisely,  to  return  from  the  Internet  to  Client\_1  and  Client\_2),  the  Wi-Fi  Router  must configure  static  routes  for  Net2  and  Net3  networks.  If  there  is  no  such  possibility,  put  the  Int1  interface  on  Server\_1  into  NAT  mode.
 
